@@ -1,0 +1,150 @@
+:root {
+  --color-color-palette-ayita-error-dark: #e64449; /* Alternative dark shade */
+  --color-color-palette-ayita-error-light: #ff7074; /* Alternative light shade */
+  --color-color-palette-ayita-error-main: #ff4c51; /* Used for alert component */
+  --color-color-palette-ayita-error-opacity-dark: rgba(255, 76, 81, 0.32);
+  --color-color-palette-ayita-error-opacity-darker: rgba(255, 76, 81, 0.38);
+  --color-color-palette-ayita-error-opacity-light: rgba(255, 76, 81, 0.16);
+  --color-color-palette-ayita-error-opacity-lighter: rgba(255, 76, 81, 0.08);
+  --color-color-palette-ayita-error-opacity-main: rgba(255, 76, 81, 0.24);
+  --color-color-palette-ayita-gray-opacity-dark: rgba(29, 98, 133, 0.32);
+  --color-color-palette-ayita-gray-opacity-darker: rgba(29, 98, 133, 0.38);
+  --color-color-palette-ayita-gray-opacity-light: rgba(29, 98, 133, 0.16);
+  --color-color-palette-ayita-gray-opacity-lighter: rgba(29, 98, 133, 0.08);
+  --color-color-palette-ayita-gray-opacity-main: rgba(29, 98, 133, 0.24);
+  --color-color-palette-ayita-info-dark: #4676e8; /* Alternative dark shade */
+  --color-color-palette-ayita-info-light: #719bff; /* Alternative light shade */
+  --color-color-palette-ayita-info-main: #4d82ff; /* Used for alert component */
+  --color-color-palette-ayita-info-opacity-dark: rgba(77, 130, 255, 0.32);
+  --color-color-palette-ayita-info-opacity-darker: rgba(77, 130, 255, 0.38);
+  --color-color-palette-ayita-info-opacity-light: rgba(77, 130, 255, 0.16);
+  --color-color-palette-ayita-info-opacity-lighter: rgba(77, 130, 255, 0.08);
+  --color-color-palette-ayita-info-opacity-main: rgba(77, 130, 255, 0.24);
+  --color-color-palette-ayita-primary-dark: #bd405f; /* Alternative dark shade */
+  --color-color-palette-ayita-primary-light: #d96b86; /* Alternative light shade */
+  --color-color-palette-ayita-primary-main: #d04668; /* Main color used by most components */
+  --color-color-palette-ayita-primary-opacity-dark: rgba(208, 70, 104, 0.32);
+  --color-color-palette-ayita-primary-opacity-darker: rgba(208, 70, 104, 0.38);
+  --color-color-palette-ayita-primary-opacity-light: rgba(208, 70, 104, 0.16);
+  --color-color-palette-ayita-primary-opacity-lighter: rgba(208, 70, 104, 0.08);
+  --color-color-palette-ayita-primary-opacity-main: rgba(208, 70, 104, 0.24);
+  --color-color-palette-ayita-secondary-dark: #7c7f84; /* Alternative dark shade */
+  --color-color-palette-ayita-secondary-light: #a1a4a9; /* Alternative light shade */
+  --color-color-palette-ayita-secondary-main: #8a8d93; /* Secondary color used by most components */
+  --color-color-palette-ayita-secondary-opacity-dark: rgba(138, 141, 147, 0.32);
+  --color-color-palette-ayita-secondary-opacity-darker: rgba(138, 141, 147, 0.38);
+  --color-color-palette-ayita-secondary-opacity-light: rgba(138, 141, 147, 0.16);
+  --color-color-palette-ayita-secondary-opacity-lighter: rgba(138, 141, 147, 0.08);
+  --color-color-palette-ayita-secondary-opacity-main: rgba(138, 141, 147, 0.24);
+  --color-color-palette-ayita-success-dark: #007d23; /* Alternative dark shade */
+  --color-color-palette-ayita-success-light: #33a151; /* Alternative light shade */
+  --color-color-palette-ayita-success-main: #008926; /* Used for alert component */
+  --color-color-palette-ayita-success-opacity-dark: rgba(0, 170, 47, 0.32);
+  --color-color-palette-ayita-success-opacity-darker: rgba(0, 170, 47, 0.38);
+  --color-color-palette-ayita-success-opacity-light: rgba(0, 170, 47, 0.16);
+  --color-color-palette-ayita-success-opacity-lighter: rgba(0, 170, 47, 0.08);
+  --color-color-palette-ayita-success-opacity-main: rgba(0, 170, 47, 0.24);
+  --color-color-palette-ayita-warning-dark: #e6a200; /* Alternative dark shade */
+  --color-color-palette-ayita-warning-light: #ffc333; /* Alternative light shade */
+  --color-color-palette-ayita-warning-main: #ffb400; /* Used for alert component */
+  --color-color-palette-ayita-warning-opacity-dark: rgba(255, 180, 0, 0.32);
+  --color-color-palette-ayita-warning-opacity-darker: rgba(255, 180, 0, 0.38);
+  --color-color-palette-ayita-warning-opacity-light: rgba(255, 180, 0, 0.16);
+  --color-color-palette-ayita-warning-opacity-lighter: rgba(255, 180, 0, 0.08);
+  --color-color-palette-ayita-warning-opacity-main: rgba(255, 180, 0, 0.24);
+  --color-color-palette-pamola-error-dark: #e64449; /* Alternative dark shade */
+  --color-color-palette-pamola-error-light: #ff7074; /* Alternative light shade */
+  --color-color-palette-pamola-error-main: #ff4c51; /* Used for alert component */
+  --color-color-palette-pamola-error-opacity-dark: rgba(255, 76, 81, 0.32);
+  --color-color-palette-pamola-error-opacity-darker: rgba(255, 76, 81, 0.38);
+  --color-color-palette-pamola-error-opacity-light: rgba(255, 76, 81, 0.16);
+  --color-color-palette-pamola-error-opacity-lighter: rgba(255, 76, 81, 0.08);
+  --color-color-palette-pamola-error-opacity-main: rgba(255, 76, 81, 0.24);
+  --color-color-palette-pamola-gray-opacity-dark: rgba(29, 98, 133, 0.32);
+  --color-color-palette-pamola-gray-opacity-darker: rgba(29, 98, 133, 0.38);
+  --color-color-palette-pamola-gray-opacity-light: rgba(29, 98, 133, 0.16);
+  --color-color-palette-pamola-gray-opacity-lighter: rgba(29, 98, 133, 0.08);
+  --color-color-palette-pamola-gray-opacity-main: rgba(29, 98, 133, 0.24);
+  --color-color-palette-pamola-info-dark: #4676e8; /* Alternative dark shade */
+  --color-color-palette-pamola-info-light: #719bff; /* Alternative light shade */
+  --color-color-palette-pamola-info-main: #4d82ff; /* Used for alert component */
+  --color-color-palette-pamola-info-opacity-dark: rgba(77, 130, 255, 0.32);
+  --color-color-palette-pamola-info-opacity-darker: rgba(77, 130, 255, 0.38);
+  --color-color-palette-pamola-info-opacity-light: rgba(77, 130, 255, 0.16);
+  --color-color-palette-pamola-info-opacity-lighter: rgba(77, 130, 255, 0.08);
+  --color-color-palette-pamola-info-opacity-main: rgba(77, 130, 255, 0.24);
+  --color-color-palette-pamola-primary-dark: #3f5ea1; /* Alternative dark shade */
+  --color-color-palette-pamola-primary-light: #6a85c1; /* Alternative light shade */
+  --color-color-palette-pamola-primary-main: #4567b1; /* Main color used by most components */
+  --color-color-palette-pamola-primary-opacity-dark: rgba(7, 72, 176, 0.32);
+  --color-color-palette-pamola-primary-opacity-darker: rgba(7, 72, 176, 0.38);
+  --color-color-palette-pamola-primary-opacity-light: rgba(7, 72, 176, 0.16);
+  --color-color-palette-pamola-primary-opacity-lighter: rgba(7, 72, 176, 0.08);
+  --color-color-palette-pamola-primary-opacity-main: rgba(7, 72, 176, 0.24);
+  --color-color-palette-pamola-secondary-dark: #7c7f84; /* Alternative dark shade */
+  --color-color-palette-pamola-secondary-light: #a1a4a9; /* Alternative light shade */
+  --color-color-palette-pamola-secondary-main: #8a8d93; /* Secondary color used by most components */
+  --color-color-palette-pamola-secondary-opacity-dark: rgba(138, 141, 147, 0.32);
+  --color-color-palette-pamola-secondary-opacity-darker: rgba(138, 141, 147, 0.38);
+  --color-color-palette-pamola-secondary-opacity-light: rgba(138, 141, 147, 0.16);
+  --color-color-palette-pamola-secondary-opacity-lighter: rgba(138, 141, 147, 0.08);
+  --color-color-palette-pamola-secondary-opacity-main: rgba(138, 141, 147, 0.24);
+  --color-color-palette-pamola-success-dark: #007d23; /* Alternative dark shade */
+  --color-color-palette-pamola-success-light: #33a151; /* Alternative light shade */
+  --color-color-palette-pamola-success-main: #008926; /* Used for alert component */
+  --color-color-palette-pamola-success-opacity-dark: rgba(0, 170, 47, 0.32);
+  --color-color-palette-pamola-success-opacity-darker: rgba(0, 170, 47, 0.38);
+  --color-color-palette-pamola-success-opacity-light: rgba(0, 170, 47, 0.16);
+  --color-color-palette-pamola-success-opacity-lighter: rgba(0, 170, 47, 0.08);
+  --color-color-palette-pamola-success-opacity-main: rgba(0, 170, 47, 0.24);
+  --color-color-palette-pamola-warning-dark: #e6a200; /* Alternative dark shade */
+  --color-color-palette-pamola-warning-light: #ffc333; /* Alternative light shade */
+  --color-color-palette-pamola-warning-main: #ffb400; /* Used for alert component */
+  --color-color-palette-pamola-warning-opacity-dark: rgba(255, 180, 0, 0.32);
+  --color-color-palette-pamola-warning-opacity-darker: rgba(255, 180, 0, 0.38);
+  --color-color-palette-pamola-warning-opacity-light: rgba(255, 180, 0, 0.16);
+  --color-color-palette-pamola-warning-opacity-lighter: rgba(255, 180, 0, 0.08);
+  --color-color-palette-pamola-warning-opacity-main: rgba(255, 180, 0, 0.24);
+  --color-misc-ayita-avatar-bg: #373a3a;
+  --color-misc-ayita-bg-black: #212121;
+  --color-misc-ayita-bg-facebook: #4267b2;
+  --color-misc-ayita-bg-linkedin: #007bb6;
+  --color-misc-ayita-bg-twitter: #1da1f2;
+  --color-misc-ayita-bg-white: #ffffff;
+  --color-misc-ayita-body-bg: #aeabab;
+  --color-misc-ayita-chat-bg: #313030;
+  --color-misc-ayita-grey-light: #242424;
+  --color-misc-ayita-paper: #282828;
+  --color-misc-ayita-snackbar: #f7f4ff; /* Snackbar background color */
+  --color-misc-ayita-table-header: #303030;
+  --color-misc-ayita-track-bg: #373a3a;
+  --color-misc-pamola-avatar-bg: #373a3a;
+  --color-misc-pamola-bg-black: #1b1f27;
+  --color-misc-pamola-bg-facebook: #4267b2;
+  --color-misc-pamola-bg-linkedin: #007bb6;
+  --color-misc-pamola-bg-twitter: #1da1f2;
+  --color-misc-pamola-bg-white: #ffffff;
+  --color-misc-pamola-body-bg: #aeabab;
+  --color-misc-pamola-chat-bg: #1f242e;
+  --color-misc-pamola-grey-light: #252b37;
+  --color-misc-pamola-paper: #1f242e;
+  --color-misc-pamola-snackbar: #f7f4ff; /* Snackbar background color */
+  --color-misc-pamola-table-header: #2b323f;
+  --color-misc-pamola-track-bg: #252b37;
+  --color-theme-action-active: rgba(219, 219, 219, 0.6); /* Fill color for components in active state (List, Table, etc) */
+  --color-theme-action-disabled: rgba(219, 219, 219, 0.3); /* Content color for components in disabled state (Button, List, Table, etc) */
+  --color-theme-action-disabled-bg: rgba(219, 219, 219, 0.16); /* Fill background for components in disabled state (List, Table, etc) */
+  --color-theme-action-focus: rgba(219, 219, 219, 0.1); /* Fill background for components in focus state (List, Table, etc) */
+  --color-theme-action-hover: rgba(62, 115, 200, 0.15); /* Fill background for components in hover state (List, Table, etc) */
+  --color-theme-action-selected: rgba(219, 219, 219, 0.05); /* Fill background for components in selected state (List, Table, etc) */
+  --color-theme-backdrop-overlay: rgba(33, 33, 33, 0.6); /* Backdrop overlay style */
+  --color-theme-chip-background: rgba(219, 219, 219, 0.08);
+  --color-theme-divider: rgba(219, 219, 219, 0.12); /* Divider fill color */
+  --color-theme-filled-input-bg: rgba(219, 219, 219, 0.06);
+  --color-theme-input-border: rgba(219, 219, 219, 0.22); /* Border style for standard variant Text Field & Select */
+  --color-theme-outline-border: rgba(219, 219, 219, 0.24);
+  --color-theme-text-disabled: rgba(219, 219, 219, 0.4);
+  --color-theme-text-primary: rgba(219, 219, 219, 0.9); /* Text primary */
+  --color-theme-text-secondary: rgba(219, 219, 219, 0.7); /* Text secondary */
+  --color-theme-text-subtitle: rgba(219, 219, 219, 0.55); /* Text primary */
+}
